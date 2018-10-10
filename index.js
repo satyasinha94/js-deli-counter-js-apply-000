@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 function takeANumber (line, name) {
   line.push(name)
@@ -26,4 +27,11 @@ function currentLine(line) {
     }
   }
 return `The line is currently: ${numberedLine.join(", ")}`
+=======
+function takeANumber (katzDeli, name) {
+  for (let i = 0; i < katzDeli.length; i++) {
+    katzDeli.push(name)
+  }
+  return `Welcome ${katzDeli}`
+>>>>>>> 4d3620d91f7c33f7275e6d391aca5de3a89cb4e3
 }
